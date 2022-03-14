@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --main-color: #f7dab9;
+    --secondary-color: #f7795a;
+    --bg-color: #ece6de;
+  }
+.text-white{
+    color: white;
+}
+
+.bg-main-color{
+    background-color: var(--main-color);
+}
+.all-bg-color{
+    background-color: var(--bg-color);
+}
+.rounde-img{
+    border-radius: 40px;
+    object-fit: contain;
+}
+.bg-color-pink{
+    background-color: var(--secondary-color);
+}
+.height-200{
+    height: 200;
+}
